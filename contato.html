@@ -10,52 +10,53 @@
 		<meta name="keywords" content="HTML, CSS, JavaScript">
 		
 		<link rel="icon" type="image/svg" href="./assets/img/favicon.svg" />
-
+		<!-- Link para a Folha de Estilo da Página - CSS -->
+		<link rel="stylesheet" href="./assets/css/style.css">	
 		<title>Meu Perfil</title>
 	</head>
 
 	<body>
 
-		<!-- Cabeçalho da Página (header) -->
-		<header>
+			<!-- Cabeçalho da Página (header) -->
+			<header>
 
-			<!-- Div Conteudo do Cabeçalho -->
-			<div id="header_content">
-
-				<!-- Titulo do Cabeçalho -->
-				<div id="titulo">
-
-					<!-- Seu nome -->
-					<h1>Jaime Filho</h1>
-
+				<!-- Div Conteudo do Cabeçalho -->
+				<div id="header_content" class="flex">
+	
+					<!-- Titulo do Cabeçalho -->
+					<div id="titulo">
+	
+						<!-- Seu nome -->
+						<h1>Generation Brasil</h1>
+	
+					</div>
+	
+					<!-- Conteudo do Menu da Página (header) -->
+					<div id="menu">
+	
+						<!-- Menu da Página -->
+						<nav>
+	
+							<!-- Marcadores não ordenados + links -->
+							<ul id="menu">
+								<li>
+									<a href="index.html">Home</a>
+								</li>
+								<li>
+									<a href="contato.html">Contato</a>
+								</li>
+							</ul>
+	
+						</nav>
+	
+					</div>
+	
 				</div>
-
-				<!-- Conteudo do Menu da Página (header) -->
-				<div id="menu">
-
-					<!-- Menu da Página -->
-					<nav>
-
-						<!-- Marcadores não ordenados + links -->
-						<ul id="menu">
-							<li>
-								<a href="index.html">Home</a>
-							</li>
-							<li>
-								<a href="contato.html">Contato</a>
-							</li>
-						</ul>
-
-					</nav>
-
-				</div>
-
-			</div>
-
-		</header>
+	
+			</header>
 
 		<!-- Seção Principal da Página (main) -->
-		<main>
+		<main class="flex">
 			
 			<!-- Seção Formulário de Contato e Redes Sociais -->
 			<section id="contact">
@@ -107,7 +108,7 @@
 				</form>
 
 				<!-- Seção do Google Maps -->
-				<article id="mapa">
+				<article id="mapa" class="flex_start">
 
 					<div id="endereco">
 						<p>Av. Paulista, 100</p>
@@ -134,26 +135,27 @@
 		</main>
 
 		<!-- Rodapé da Página (footer) -->
-		<footer>
+		<footer class="flex">
 
 			<!-- Seção de Contato - Redes Sociais-->
 			<section id="redes_sociais">
 
 				<a href="">
-					<img src="assets/img/linkedin.svg" alt="LinkedIn" />
+					<img src="assets/img/linkedin.svg" alt="LinkedIn" class="social_icon"/>
 				</a>
 				<a href="">
-					<img src="assets/img/github.svg" alt="Github" />
+					<img src="assets/img/github.svg" alt="Github" class="social_icon"/>
 				</a>
 				<a href="">
-					<img src="assets/img/instagram.svg" alt="Instagram" />
+					<img src="assets/img/instagram.svg" alt="Instagram" class="social_icon"/>
 				</a>
 
 			</section>
 
-			<h3>Feito por dev Jaime Filho</h3>
+			<h3>Feito com 🧡 por Generation Brasil - 2024</h3>
 
 		</footer>
+
 
 	</body>
 
